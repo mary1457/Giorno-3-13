@@ -4,9 +4,9 @@ public class Sim {
 
 
 
-    private String numeroTelefono;
-    private double credito;
-    private Chiamata[] listaChiamate;
+    private final String numeroTelefono;
+    private final double credito;
+    private final Chiamata[] listaChiamate;
 
 
     public Sim(String numeroTelefono, double credito,Chiamata[] chiamata) {

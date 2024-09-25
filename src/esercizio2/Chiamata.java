@@ -2,8 +2,8 @@ package esercizio2;
 
 
 public class Chiamata {
-    private String numeroChiamato;
-    private int durata;
+    private final String numeroChiamato;
+    private final int durata;
 
 
     public Chiamata(String numeroChiamato, int durata) {
@@ -12,13 +12,6 @@ public class Chiamata {
     }
 
 
-    public String getNumeroChiamato() {
-        return numeroChiamato;
-    }
-
-    public int getDurata() {
-        return durata;
-    }
 
 
     public void stampaDettaglioChiamata() {
